@@ -88,7 +88,7 @@ public class SearchActivity extends AppCompatActivity {
             verificarBusqueda(util);
         } catch (IOError error){
             error.printStackTrace();
-            Toast.makeText(context, "Espere...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Wait...", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -111,7 +111,7 @@ public class SearchActivity extends AppCompatActivity {
                     .enqueue(new Callback<Base>() {
                         @Override
                         public void onResponse(Call<Base> call, Response<Base> response) {
-                            System.out.println("Petición correcta");
+                            System.out.println("Correct request");
 
                             personagemList = new ArrayList<>();
 
@@ -155,7 +155,7 @@ public class SearchActivity extends AppCompatActivity {
                         @Override
                         public void onFailure(Call<Base> call, Throwable t) {
                             Toast.makeText(SearchActivity.this, R.string.no_net, Toast.LENGTH_SHORT).show();
-                            System.out.println("Petición errónea");
+                            System.out.println("Incorrect request");
                             loading.setVisibility(View.GONE);
                         }
                     });

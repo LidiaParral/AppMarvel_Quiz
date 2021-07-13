@@ -241,7 +241,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void errorAPI(final View view) {
-        Log.e("ERROR - ", "Error al cargar los datos");
+        Log.e("ERROR - ", "Error loading data");
         Toast.makeText(activity, R.string.no_data, Toast.LENGTH_SHORT).show();
         btnActualizar.setVisibility(View.VISIBLE);
         btnActualizar.setOnClickListener(new View.OnClickListener() {

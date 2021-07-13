@@ -62,7 +62,7 @@ public class FilmsFragment extends Fragment {
     }
 
     private void guardarImagen() {
-        File dir = new File(Environment.getDataDirectory(), "GuardarImagen");
+        File dir = new File(Environment.getDataDirectory(), "SaveImage");
 
         if(!dir.exists()){
             dir.mkdir();
@@ -75,7 +75,7 @@ public class FilmsFragment extends Fragment {
 
         try {
             bitmap.compress(Bitmap.CompressFormat.JPEG,100, new FileOutputStream("/sdcard/chronology.jpg"));
-            Toast.makeText(getActivity(), "Imagen guardada correctamente",Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(), "Image saved successfully",Toast.LENGTH_LONG).show();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -92,7 +92,7 @@ public class FilmsFragment extends Fragment {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 guardarImagen();
             } else {
-                Toast.makeText(getActivity(), "Proporcione el permiso requerido", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "Provide required permission", Toast.LENGTH_LONG).show();
             }
         }
 
