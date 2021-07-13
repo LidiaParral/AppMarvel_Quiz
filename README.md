@@ -1,11 +1,12 @@
 # Marvel Application
 _Application that shows the list of heroes and their characteristics. It also shows the list of series and comics where these heroes have appeared. This application is made based on the Marvel API using Retrofit_
  
- 
  ### Use
  _Prerequisites: You must obtain valid Marvel Keys to use this library. You can get it from [Marvel] marvelAuthorization_
  
- 
+
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  # Project preview
  
  *Splash* | *List of characters* | *Character details* |
@@ -24,21 +25,7 @@ _Application that shows the list of heroes and their characteristics. It also sh
 * [JUnit junit]
 * [Glide]
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  # License
