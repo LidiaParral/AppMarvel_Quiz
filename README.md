@@ -1,26 +1,21 @@
-# Aplicacion de Marvel
- Aplicación que muestra la lista de héroes y sus características. También muestra la lista de series y comics donde han salido estos héroes. Esta aplicación esta hecha basada en la API de Marvel usando Retrofit 
+# Marvel Application
+_Application that shows the list of heroes and their characteristics. It also shows the list of series and comics where these heroes have appeared. This application is made based on the Marvel API using Retrofit_
  
  
- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
- 
- # Use
- Prerequisites: You must obtain valid Marvel Keys to use this library. You can get it from [Marvel] marvelAuthorization
+ ### Use
+ _Prerequisites: You must obtain valid Marvel Keys to use this library. You can get it from [Marvel] marvelAuthorization_
  
  
  # Project preview
  
- *Splash* | *Login* | *Sign Up* |
-  ----- |----- | ------ |
-![](img/details.gif) | 
+ *Splash* |
+  ----- |
+![](img/details.gif) 
  
  
  
- 
- 
- 
- # Libraries used in this project
+ ## Tools
+ _Libraries used in this project_
  
 * [OkHttp okHttp]
 * [Rtrofit retrofit]
