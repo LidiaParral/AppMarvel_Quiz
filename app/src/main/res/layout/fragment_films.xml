@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilmsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="@string/tv_chronology"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red_dark"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/marvel_bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimens"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/tv_chronology_des"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/marvel_bold"/>
+
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/btn_round"
+                    android:text="@string/btn_save" />
+
+                <ImageView
+                    android:id="@+id/img_marvel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="@dimen/dimens"
+                    android:src="@drawable/universe_marvel"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/img_chronology"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/chronology_1"
+            android:visibility="gone"/>
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="tv_splash">MARVEL</string>
+    <string name="btn_heroes">Marvel</string>
+    <string name="no_network">At this moment it is not possible to establish the connection</string>
+    <string name="no_data">Unable to load data</string>
+    <string name="no_net">Connection problems</string>
+    <string name="no_personage">There are no characters !!</string>
+    <string name="add_field">Add the field</string>
+    <string name="no_findP">Character not found</string>
+    <string name="btn_reload">Upload image</string>
+    <string name="tv_comics">Comics</string>
+    <string name="tv_series">Series</string>
+    <string name="tv_description">Description</string>
+    <string name="tv_personaje">Personage</string>
+    <string name="et_hero">Personage</string>
+    <string name="tv_heroS">Search character::</string>
+    <string name="btn_save">Save</string>
+    <string name="tv_nameC">comic</string>
+    <string name="btn_start">Start</string>
+    <string name="tv_appgame">Quiz Marvel</string>
+    <string name="tv_count">Question</string>
+    <string name="tv_time">Time</string>
+    <string name="tv_result">Score</string>
+    <string name="tv_tot_score">Total Score: 111</string>
+    <string name="btn_return">Return</string>
+    <string name="tv_chronology">Marvel Timeline</string>
+    <string name="tv_chronology_des">This screen allows you to get an image in order to properly follow the chronology of the Marvel movies.</string>
+
+</resources>
