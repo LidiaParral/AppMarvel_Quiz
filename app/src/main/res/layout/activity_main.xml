@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/reload"
+            android:background="@drawable/btn_round"
             android:fontFamily="@font/marvel_regular"
             android:padding="10dp"
             android:text="@string/btn_reload"

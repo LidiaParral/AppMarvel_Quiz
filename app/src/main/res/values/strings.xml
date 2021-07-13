@@ -14,7 +14,7 @@
     <string name="tv_description">Description</string>
     <string name="tv_personaje">Personage</string>
     <string name="et_hero">Personage</string>
-    <string name="tv_heroS">Search character::</string>
+    <string name="tv_heroS">Search character:</string>
     <string name="btn_save">Save</string>
     <string name="tv_nameC">comic</string>
     <string name="btn_start">Start</string>

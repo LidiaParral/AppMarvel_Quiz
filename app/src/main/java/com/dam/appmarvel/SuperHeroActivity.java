@@ -42,7 +42,7 @@ public class SuperHeroActivity extends AppCompatActivity {
             @Override
             public void onConfigureTab(@NonNull @NotNull TabLayout.Tab tab, int position) {
                 switch (position){
-                    case 0: tab.setText("Films");
+                    case 0: tab.setText("Chronology");
                     tab.setIcon(R.drawable.films);
                     break;
                     case 1: tab.setText("Quiz");
