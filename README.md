@@ -13,7 +13,7 @@
  
  *Splash* | *Login* | *Sign Up* |
   ----- |----- | ------ |
-![splash](img/details.gif) | 
+![](img/details.gif) | 
  
  
  
@@ -22,10 +22,10 @@
  
  # Libraries used in this project
  
--OkHttp okHttp 
--Retrofit retrofit
--JUnit junit
--Glide
+* [OkHttp okHttp]
+* [Rtrofit retrofit]
+* [JUnit junit]
+* [Glide]
 
  
  
