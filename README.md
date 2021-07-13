@@ -10,7 +10,7 @@ _Application that shows the list of heroes and their characteristics. It also sh
  
  *Splash* |
   ----- |
-![](img/details_personaje.mp4) 
+![](img/splash_marvel.gif) 
  
  
  
