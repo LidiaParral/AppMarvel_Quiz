@@ -34,8 +34,8 @@ public class QuizResultActivity extends AppCompatActivity {
         editor.apply();
     }
 
-    public void returnTop(View view) {
-        startActivity(new Intent(getApplicationContext(), QuizFragment.class));
+    /*public void returnTop(View view) {
+        startActivity(new Intent(getApplicationContext(), SuperHeroActivity.class));
 
-    }
+    }*/
 }
