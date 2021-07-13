@@ -13,7 +13,7 @@
  
  *Splash* | *Login* | *Sign Up* |
   ----- |----- | ------ |
-![splash](img/splash_marvel.gif) | 
+![](img/splash_marvel.gif) | 
  
  
  
