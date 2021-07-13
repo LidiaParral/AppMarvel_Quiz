@@ -189,11 +189,8 @@ public class DetailsActivity extends AppCompatActivity {
 
                                         String extension = response.body().getData().getResults().get(i).getThumbnail().getExtension();
                                         String url = response.body().getData().getResults().get(i).getThumbnail().getPath() + "." + extension;
-                                        String name = response.body().getData().getResults().get(i).getTitle().trim();
-
 
                                         comicsList.add(url);
-                                        comicsList.add(name);
 
                                         if (comicsList.size() != 0) {
                                             rv.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false));
