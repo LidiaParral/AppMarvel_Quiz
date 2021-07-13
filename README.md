@@ -1,8 +1,9 @@
 # Marvel Application
-_Application that shows the list of heroes and their characteristics. It also shows the list of series and comics where these heroes have appeared. This application is made based on the Marvel API using Retrofit_
+_Application that shows the list of heroes and their characteristics. It also shows the list of series and comics where these heroes have appeared. This application is made based on the Marvel API using Retrofit._
+_It also includes a quiz game about the characters, as well as a downloadable chronology of how to watch the Marvel movies in the correct order._
  
  ### Use
- _Prerequisites: You must obtain valid Marvel Keys to use this library. You can get it from [Marvel] marvelAuthorization_
+ _Prerequisites: You must obtain valid Marvel Keys to use this library. You can get it from [Marvel] marvelAuthorization._
  
 
  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
