@@ -8,9 +8,9 @@ _Application that shows the list of heroes and their characteristics. It also sh
  
  # Project preview
  
- *Splash* |
-  ----- |
-![](img/splash_marvel.gif) 
+ *Splash* | *List of characters* | *Character details* |
+  ------- | -------------------- |  ------------------ |
+![](img/splash_marvel.gif) | ![](img/list_personajes.gif) | ![](img/details_personajes.gif)
  
  
  
