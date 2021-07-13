@@ -25,7 +25,6 @@ public class ComicsAdapter extends RecyclerView.Adapter<ComicsAdapter.ComicsView
     private List<String> comicsList;
     private SharedPreferences sharedPreferences;
     private String id;
-    private String name;
 
     public ComicsAdapter(Activity activity, List<String> comicsList) {
 
@@ -49,9 +48,7 @@ public class ComicsAdapter extends RecyclerView.Adapter<ComicsAdapter.ComicsView
     public void onBindViewHolder(ComicsViewHolder holder, int position) {
 
         String comics = comicsList.get(position);
-        String name = comicsList.get(position);
         holder.vincula(comics);
-        holder.vincula(name);
 
     }
 
@@ -65,7 +62,6 @@ public class ComicsAdapter extends RecyclerView.Adapter<ComicsAdapter.ComicsView
 
         ImageView image_comics;
         TextView tvIdComics;
-        TextView tvNameComics;
         TextView tvUrlComics;
         TextView tvDesComics;
 
@@ -74,7 +70,6 @@ public class ComicsAdapter extends RecyclerView.Adapter<ComicsAdapter.ComicsView
 
             image_comics = itemView.findViewById(R.id.img_comics);
             tvIdComics = itemView.findViewById(R.id.card_tvId);
-            tvNameComics = itemView.findViewById(R.id.tvNameComics);
             tvUrlComics = itemView.findViewById(R.id.card_tvUrl);
             tvDesComics = itemView.findViewById(R.id.card_tvDescription);
 
@@ -92,7 +87,6 @@ public class ComicsAdapter extends RecyclerView.Adapter<ComicsAdapter.ComicsView
                         .apply(RequestOptions.circleCropTransform())
                         .into(image_comics);
 
-                tvNameComics.setText(name);
 
 
         }
