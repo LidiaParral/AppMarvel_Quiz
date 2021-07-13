@@ -10,9 +10,11 @@ _Application that shows the list of heroes and their characteristics. It also sh
  
  *Splash* | *List of characters* | *Character details* |
   ------- | -------------------- |  ------------------ |
-![](img/splash_marvel.gif) | ![](img/list_personajes.gif) | ![](img/details_personajes.gif)
+![](img/splash_marvel.gif) | ![](img/list_personajes.gif) | ![](img/details_personaje.gif)
  
- 
+  *Timeline and Quiz* | *Search of characters* |
+  ------------------- | ---------------------- |
+![](img/tabLayout_quiz.gif) | ![](img/search_personaje.gif)
  
  ## Tools
  _Libraries used in this project_
