@@ -68,7 +68,6 @@ public class QuizMainActivity extends AppCompatActivity {
             {"How many Infinity Stones are there?","Six","Five","Four", "Seven"},
             {"Where is Captain America from?","Brooklyn","Jersey City","Manhattan", "Bensonhurst"},
             {"Who is Tony Stark’s father?","Howard Stark","Ben Stark","John Stark", "He hasn't father"},
-            {"What does S.H.I.E.L.D. stand for?","El termómetro debe reciclarse en un punto limpio","El termómetro debe reciclarse en las farmacias, al igual que los medicamentos","El termómetro debe reciclarse en el contenedor gris", "El termómetro no se recicla"},
             {"Who was able to pick up Thor’s hammer in Endgame?","Captain America","Hulk","Iron Man", "Loki"},
             {"Who was responsible for King T’Chaka’s death?","Zemo","Baron","Captain America", "Red Skull"},
             {"In which movie did Spider-Man make his first appearance in the MCU?","Captain America: Civil War","Avengers: Infinity War","Venom: Let There Be Carnage", "Avengers: Endgame"},
